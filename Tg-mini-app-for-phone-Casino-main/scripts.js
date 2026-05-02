@@ -561,12 +561,11 @@ input.addEventListener("input", () => {
 });
 
 
-// ===== BACKEND INTEGRATION =====
-const tg = window.Telegram?.WebApp;
+// --- BACKEND INTEGRATION ---
 tg?.expand();
 
-const user = tg?.initDataUnsafe?.user || { id: "demo_user" };
-const API = "http://localhost:3000";
+const user = tg.initDataUnsafe?.user || { id: "demo_user" };
+const API = "https://dwf.onrender.com"; // 🔥 ВАЖНО
 
 async function syncUser(){
   const res = await fetch(API+"/get-user",{
