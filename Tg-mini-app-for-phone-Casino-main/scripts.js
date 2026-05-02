@@ -15,8 +15,10 @@ const exitButton = document.querySelector(".exit");
 const userInfo = document.querySelector(".user-info");
 const ruletkaSection = casePage.querySelector(".ruletka-section");
 const krutkaSection = casePage.querySelector(".open-info");
+const API = "https://dwf.onrender.com";
 const tg = window.Telegram.WebApp;
-const API = "https://your-render-url.onrender.com";
+
+const userId = tg.initDataUnsafe?.user?.id || "test_user";
 
 tg.expand();
 
