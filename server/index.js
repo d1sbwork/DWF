@@ -1,10 +1,15 @@
 const express = require("express");
 const sqlite3 = require("sqlite3").verbose();
 const cors = require("cors");
+const path = require("path");
 
-const app = express();
+const app = express(); // ✅ ТОЛЬКО ОДИН РАЗ
+
 app.use(cors());
 app.use(express.json());
+
+// 👉 подключаем фронт (Mini App)
+app.use(express.static(path.join(__dirname, "../Tg-mini-app-for-phone-Casino-main")));
 
 const db = new sqlite3.Database("/tmp/db.sqlite");
 
@@ -64,6 +69,12 @@ app.post("/spin", (req, res) => {
   });
 });
 
+// 👇 ВСЕ РОУТЫ СНАЧАЛА
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../Tg-mini-app-for-phone-Casino-main/index.html"));
+});
+
+// 👇 И ТОЛЬКО ПОТОМ запуск
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
