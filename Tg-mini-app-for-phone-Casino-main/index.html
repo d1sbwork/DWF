@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Основной Интерфейс -->
+    <section class="interface">
+      <button class="autorization turn-off">Войти через Telegram</button>
+      <div class="user-data">
+        <div class="user-image">
+          <img src="" alt="" />
+        </div>
+        <div class="balance">
+          <button class="deposit">
+            <img src="media/deposit.svg" alt="" />
+          </button>
+          <div class="credits">
+            <span><img src="media/star.svg" alt="" />7777</span>
+            <span><img src="media/triangle.svg" alt="" />7777</span>
+          </div>
+        </div>
+      </div>
+      <div class="user-info turn-off">
+        <div>
+          <h2>Name</h2>
+          <span>User ID 9999999</span>
+        </div>
+        <button class="log-out"><img src="media/log-out.svg" alt="" /></button>
+      </div>
+      <div class="item-lenta turn-on">
+        <h2 class="call-of-cases">Последние дропы</h2>
+        <div class="dropss">
+          <img src="media/shadowLeft.svg" alt="" class="shadow-left" />
+          <img src="media/shadow-right.svg" alt="" class="shadow-right" />
+          <ul class="last-drops">
+            <li class="drop">
+              <img src="media/ItemsInCases/blueGrib.svg" alt="" />
+            </li>
+            <li class="drop">
+              <img src="media/ItemsInCases/greenHelmet.svg" alt="" />
+            </li>
+            <li class="drop">
+              <img src="media/ItemsInCases/blueHelmet.svg" alt="" />
+            </li>
+            <li class="drop">
+              <img src="media/ItemsInCases/blackEye.svg" alt="" />
+            </li>
+            <li class="drop">
+              <img src="media/ItemsInCases/redHat.svg" alt="" />
+            </li>
+            <li class="drop">
+              <img src="media/ItemsInCases/kepka.svg" alt="" />
+            </li>
+            <li class="drop">
+              <img src="media/ItemsInCases/greenBag.svg" alt="" />
+            </li>
+            <li class="drop">
+              <img src="media/ItemsInCases/redBear.svg" alt="" />
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="navigation">
+        <div class="home active-page">
+          <img src="media/home.svg" alt="" /><button>Главная</button>
+        </div>
+        <div class="profile">
+          <img src="media/user.svg" alt="" /><button>Профиль</button>
+        </div>
+        <div class="opacity-box"></div>
+      </div>
+    </section>
+
+    <!-- Профиль -->
+    <section class="profile-without-autorization turn-off">
+      <div class="empty turn-on">
+        <h2>Ваш инвентарь пуст.</h2>
+        <p>Нужно это исправить!</p>
+      </div>
+      <div class="inventory">
+        <h2 class="profile-inventory">Инвентарь</h2>
+        <ul class="cards cards-in-inventory">
+        </ul>
+      </div>
+    </section>
+
+    <!-- Кейс -->
+    <section class="case-without-autorization turn-off">
+      <div class="ruletka-section turn-off">
+        <div class="ruletka-container">
+          <!-- сам круг -->
+          <h2 class="ruletka-name">Название</h2>
+          <img src="media/round.svg" alt="roulette circle" class="ruletka-bg" />
+
+          <!-- предметы поверх -->
+          <div class="ruletka-items">
+            <div class="item">
+              <img
+                src="media/ruletkaItems/specialContainer.svg"
+                class="box-container this"
+              /><img
+                src="media/ItemsInCases/cat.svg"
+                class="ruletka-item"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="media/ruletkaItems/ruletkaContainer.svg"
+                class="box-container"
+              /><img
+                src="media/ItemsInCases/watch.svg"
+                class="ruletka-item"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="media/ruletkaItems/ruletkaContainer.svg"
+                class="box-container"
+                loading="lazy"
+              /><img
+                src="media/ItemsInCases/lips.svg"
+                class="ruletka-item"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="media/ruletkaItems/ruletkaContainer.svg"
+                class="box-container"
+              /><img
+                src="media/ItemsInCases/redRing.svg"
+                class="ruletka-item"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="media/ruletkaItems/ruletkaContainer.svg"
+                class="box-container"
+              /><img
+                src="media/ItemsInCases/blackBag.svg"
+                class="ruletka-item"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="media/ruletkaItems/ruletkaContainer.svg"
+                class="box-container"
+              /><img
+                src="media/ItemsInCases/maryRing.svg"
+                class="ruletka-item"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="media/ruletkaItems/ruletkaContainer.svg"
+                class="box-container"
+              /><img
+                src="media/ItemsInCases/greenHelmet.svg"
+                class="ruletka-item"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="media/ruletkaItems/ruletkaContainer.svg"
+                class="box-container"
+              /><img
+                src="media/ItemsInCases/blueHelmet.svg"
+                class="ruletka-item"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="media/ruletkaItems/ruletkaContainer.svg"
+                class="box-container"
+              /><img
+                src="media/ItemsInCases/scream.svg"
+                class="ruletka-item"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="media/ruletkaItems/ruletkaContainer.svg"
+                class="box-container"
+              /><img
+                src="media/ItemsInCases/blueRing.svg"
+                class="ruletka-item"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="media/ruletkaItems/ruletkaContainer.svg"
+                class="box-container"
+              /><img
+                src="media/ItemsInCases/lemonHelmet.svg"
+                class="ruletka-item"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="media/ruletkaItems/ruletkaContainer.svg"
+                class="box-container"
+              /><img
+                src="media/ItemsInCases/redBear.svg"
+                class="ruletka-item"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="media/ruletkaItems/ruletkaContainer.svg"
+                class="box-container"
+              /><img
+                src="media/ItemsInCases/greenBag.svg"
+                class="ruletka-item"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="item">
+              <img
+                src="media/ruletkaItems/ruletkaContainer.svg"
+                class="box-container"
+              /><img
+                src="media/ItemsInCases/kepka.svg"
+                class="ruletka-item"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <div class="pointer">
+            <img src="media/ruletkaItems/pointer.svg" alt="" />
+          </div>
+        </div>
+        <div class="krutka">
+          <span class="simple-text"
+            >Предметы можно вывести в <span class="red-text"
+              >инвентаре</span
+            ></span
+          >
+          <div class="krutka-buttons">
+            <button>
+              Попробовать еще раз<img src="media/repeat.svg" alt="" />
+            </button>
+            <button>
+              Продать за<img src="media/blackStar.svg" alt="" />7777
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="open-info">
+        <h2 class="call-of-item">Название</h2>
+        <div class="main-image">
+          <img src="" alt="" />
+        </div>
+
+        <div class="notation turn-off">
+          <h3>Вы не авторизованы!</h3>
+          <p>Для открытия кейсов необходимо пройти авторизацию</p>
+        </div>
+        <div class="case-system-with-autorize turn-on">
+          <div class="open-case-system">
+            <div class="mode">
+              <span>Демо режим</span>
+              <div class="toggle"><span class="circle"></span></div>
+            </div>
+            <div class="open-menu">
+              <div class="case-info-panel">
+                <span class="actual-price">Актуальная цена</span>
+                <div class="item-price">
+                  <span><img src="media/star.svg" alt="" />7777</span>
+                  <span><img src="media/triangle.svg" alt="" />7777</span>
+                  <span>$ 73,00</span>
+                </div>
+              </div>
+              <div class="open-case-buttons">
+                <button class="black">Открыть</button>
+                <button class="black">Открыть быстро</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="count-open-cases">
+            <span>Сколько кейсов открыть?</span>
+            <ul class="count">
+              <li class="count-item">1</li>
+              <li class="count-item">2</li>
+              <li class="count-item">3</li>
+              <li class="count-item">4</li>
+              <li class="count-item">5</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <h2 class="call-of-cases">Содержимое кейса</h2>
+      <ul class="cards">
+        <li class="card">
+          <div><img src="media/ItemsInCases/kepka.svg" alt="" /></div>
+          <span class="name">Название</span>
+        </li>
+        <li class="card">
+          <div><img src="media/ItemsInCases/greenBag.svg" alt="" /></div>
+          <span class="name">Название</span>
+        </li>
+        <li class="card">
+          <div><img src="media/ItemsInCases/redBear.svg" alt="" /></div>
+          <span class="name">Название</span>
+        </li>
+        <li class="card">
+          <div><img src="media/ItemsInCases/watch.svg" alt="" /></div>
+          <span class="name">Название</span>
+        </li>
+        <li class="card">
+          <div><img src="media/ItemsInCases/lips.svg" alt="" /></div>
+          <span class="name">Название</span>
+        </li>
+        <li class="card">
+          <div><img src="media/ItemsInCases/redRing.svg" alt="" /></div>
+          <span class="name">Название</span>
+        </li>
+        <li class="card">
+          <div><img src="media/ItemsInCases/cat.svg" alt="" /></div>
+          <span class="name">Название</span>
+        </li>
+        <li class="card">
+          <div><img src="media/ItemsInCases/lemonHelmet.svg" alt="" /></div>
+          <span class="name">Название</span>
+        </li>
+      </ul>
+      <div class="links">
+        <h2><a href="#">Условия использования</a></h2>
+        <h2><a href="#">Политика конфиденциальности</a></h2>
+        <h2><a href="#">Поддержка</a></h2>
+      </div>
+    </section>
+
+    <!-- Главная -->
+
+    <section class="main-without-autorization turn-on">
+      <ul class="nav-panel">
+        <li class="nav-item selected" data-group="Все">Все</li>
+        <li class="nav-item" data-group="Бесплатные кейсы">Бесплатные кейсы</li>
+        <li class="nav-item" data-group="JESS">JESS</li>
+        <li class="nav-item" data-group="Темочные">Темочные</li>
+      </ul>
+      <div id="cases-container">
+      </div>
+
+      <div class="links">
+        <h2><a href="#">Условия использования</a></h2>
+        <h2><a href="#">Политика конфиденциальности</a></h2>
+        <h2><a href="#">Поддержка</a></h2>
+      </div>
+    </section>
+    <!-- Шаблон страницы предмета (рендерится в js) -->
+    <section class="item-page turn-off">
+      <div class="item-input">
+        <h2 class="call-of-item">Название</h2>
+        <button class="exit"><img src="media/exit.svg" alt="" /></button>
+      </div>
+      <div class="item-image">
+        <img src="media/ItemsInCases/tomogochi.svg" alt="" />
+      </div>
+      <div class="item-info-panel">
+        <span class="actual-price">Актуальная цена</span>
+        <div class="item-price">
+          <span><img src="media/star.svg" alt="" />7777</span>
+          <span><img src="media/triangle.svg" alt="" />7777</span>
+          <span>$ 73,00</span>
+        </div>
+        <div class="main-buttons">
+          <button>Продать</button>
+          <button>Забрать</button>
+        </div>
+      </div>
+    </section>
+    <!-- Страница пополнения баланса -->
+    <section class="payment turn-off">
+      <h2 class="call-of-item">Выберите способ пополнения</h2>
+      <ul class="pay-variants">
+        <li class="pay-item">
+          <h3 class="variant-of-pay">Crypto Bot</h3>
+          <div class="logo-container">
+            <img src="media/cryptoBot.svg" alt="" />
+          </div>
+          <form action="" class="pay-form">
+            <div class="input-system">
+              <div class="valute">
+                <input type="number" required id="amount-input" />
+                <div class="currency-label">
+                  <span class="convertion" style="display: none"
+                    >~777 <img src="media/grayStar.svg" alt=""
+                  /></span>
+                  <span class="selected-valute">BTC</span>
+                </div>
+              </div>
+              <div class="crypto-variants">
+                <div class="arrow"><img src="media/arrow.svg" alt="" loading="lazy"/></div>
+                <select name="" id="currency-select">
+                  <option value="BTC">BTC</option>
+                  <option value="USDT">USDT</option>
+                  <option value="TON">TON</option>
+                </select>
+              </div>
+            </div>
+            <button class="continue">Продолжить</button>
+          </form>
+        </li>
+        <li class="pay-item">
+          <h3 class="variant-of-pay">Stars</h3>
+          <div class="logo-container">
+            <img src="media/starsPay.svg" alt="" loading="lazy"/>
+          </div>
+          <form action="" class="pay-form">
+            <div class="input-system">
+              <div class="valute">
+                <input type="number" required />
+                <span class="currency-label">Stars</span>
+              </div>
+            </div>
+            <button class="continue">Продолжить</button>
+          </form>
+        </li>
+        <li class="pay-item">
+          <h3 class="variant-of-pay">Telegram Gifts</h3>
+          <div class="logo-container">
+            <img src="media/telegramGifts.svg" alt="" loading="lazy"/>
+          </div>
+          <form action="" class="pay-form">
+            <div class="input-system">
+              <div class="valute">
+                <input type="number" required />
+                <span class="currency-label">BTC</span>
+              </div>
+              <div class="crypto-variants">
+                <div class="arrow"><img src="media/arrow.svg" alt="" /></div>
+                <select name="" id="currency-select">
+                  <option value="BTC">BTC</option>
+                  <option value="USDT">USDT</option>
+                  <option value="TON">TON</option>
+                </select>
+              </div>
+            </div>
+            <button class="continue">Продолжить</button>
+          </form>
+        </li>
+      </ul>
+    </section>
+    <script src="scripts.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,182 @@
+        <!-- <div class="group-of-cases"> Кейсы на главной (Шаблон)
+          <h2 class="call-of-cases">Бесплатные кейсы</h2>
+
+          <ul class="cards">
+            <li class="card case-item" data-id="1">
+              <div>
+                <img src="${item.img}" alt="${item.name}" class="case-image" />
+              </div>
+              <span class="name">Название</span>
+              <span class="price red">
+                <span><img src="media/star.svg" alt="" />7777</span>
+                <span><img src="media/triangle.svg" alt="" />7777</span>
+              </span>
+            </li>
+            <li class="card case-item" data-id="2">
+              <div>
+                <img src="${item.img}" alt="${item.name}" class="case-image" />
+              </div>
+              <span class="name">Название</span>
+              <span class="price red">
+                <span><img src="media/star.svg" alt="" />7777</span>
+                <span><img src="media/triangle.svg" alt="" />7777</span>
+              </span>
+            </li>
+            <li class="card case-item" data-id="3">
+              <div>
+                <img src="${item.img}" alt="${item.name}" class="case-image" />
+              </div>
+              <span class="name">Название</span>
+              <span class="price red">
+                <span><img src="media/star.svg" alt="" />7777</span>
+                <span><img src="media/triangle.svg" alt="" />7777</span>
+              </span>
+            </li>
+            <li class="card case-item" data-id="4">
+              <div>
+                <img src="${item.img}" alt="${item.name}" class="case-image" />
+              </div>
+              <span class="name">Название</span>
+              <span class="price red">
+                <span><img src="media/star.svg" alt="" />7777</span>
+                <span><img src="media/triangle.svg" alt="" />7777</span>
+              </span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="group-of-cases" data-id="5">
+          <h2 class="call-of-cases">JESS</h2>
+
+          <ul class="cards">
+            <li class="card case-item">
+              <div>
+                <img src="${item.img}" alt="${item.name}" class="case-image" />
+              </div>
+              <span class="name">Название</span>
+              <span class="price red">
+                <span><img src="media/star.svg" alt="" />7777</span>
+                <span><img src="media/triangle.svg" alt="" />7777</span>
+              </span>
+            </li>
+            <li class="card case-item" data-id="6">
+              <div>
+                <img src="${item.img}" alt="${item.name}" class="case-image" />
+              </div>
+              <span class="name">Название</span>
+              <span class="price red">
+                <span><img src="media/star.svg" alt="" />7777</span>
+                <span><img src="media/triangle.svg" alt="" />7777</span>
+              </span>
+            </li>
+            <li class="card case-item" data-id="7">
+              <div>
+                <img src="${item.img}" alt="${item.name}" class="case-image" />
+              </div>
+              <span class="name">Название</span>
+              <span class="price red">
+                <span><img src="media/star.svg" alt="" />7777</span>
+                <span><img src="media/triangle.svg" alt="" />7777</span>
+              </span>
+            </li>
+            <li class="card case-item" data-id="8">
+              <div>
+                <img src="${item.img}" alt="${item.name}" class="case-image" />
+              </div>
+              <span class="name">Название</span>
+              <span class="price red">
+                <span><img src="media/star.svg" alt="" />7777</span>
+                <span><img src="media/triangle.svg" alt="" />7777</span>
+              </span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="group-of-cases">
+          <h2 class="call-of-cases">Темочные</h2>
+
+          <ul class="cards">
+            <li class="card case-item" data-id="9">
+              <div>
+                <img src="${item.img}" alt="${item.name}" class="case-image" />
+              </div>
+              <span class="name">Название</span>
+              <span class="price red">
+                <span><img src="media/star.svg" alt="" />7777</span>
+                <span><img src="media/triangle.svg" alt="" />7777</span>
+              </span>
+            </li>
+            <li class="card case-item" data-id="10">
+              <div>
+                <img src="${item.img}" alt="${item.name}" class="case-image" />
+              </div>
+              <span class="name">Название</span>
+              <span class="price red">
+                <span><img src="media/star.svg" alt="" />7777</span>
+                <span><img src="media/triangle.svg" alt="" />7777</span>
+              </span>
+            </li>
+            <li class="card case-item" data-id="11">
+              <div>
+                <img src="${item.img}" alt="${item.name}" class="case-image" />
+              </div>
+              <span class="name">Название</span>
+              <span class="price red">
+                <span><img src="media/star.svg" alt="" />7777</span>
+                <span><img src="media/triangle.svg" alt="" />7777</span>
+              </span>
+            </li>
+            <li class="card case-item" data-id="12">
+              <div>
+                <img src="${item.img}" alt="${item.name}" class="case-image" />
+              </div>
+              <span class="name">Название</span>
+              <span class="price red">
+                <span><img src="media/star.svg" alt="" />7777</span>
+                <span><img src="media/triangle.svg" alt="" />7777</span>
+              </span>
+            </li>
+          </ul>
+        </div> -->
+
+------------------------------------------------------
+          <!-- <li class="card card-in-inventory"> Предеметы в инвентаре (Шаблон)
+            <div>
+              <img src="media/grib.svg" alt="" />
+            </div>
+            <span class="name">Название</span>
+            <span class="price">
+              <span><img src="media/star.svg" alt="" />7777</span>
+              <span><img src="media/triangle.svg" alt="" />7777</span>
+            </span>
+          </li>
+          <li class="card card-in-inventory">
+            <div>
+              <img src="media/grib.svg" alt="" />
+            </div>
+            <span class="name">Название</span>
+            <span class="price">
+              <span><img src="media/star.svg" alt="" />7777</span>
+              <span><img src="media/triangle.svg" alt="" />7777</span>
+            </span>
+          </li>
+          <li class="card card-in-inventory">
+            <div>
+              <img src="media/grib.svg" alt="" />
+            </div>
+            <span class="name">Название</span>
+            <span class="price">
+              <span><img src="media/star.svg" alt="" />7777</span>
+              <span><img src="media/triangle.svg" alt="" />7777</span>
+            </span>
+          </li>
+          <li class="card card-in-inventory">
+            <div>
+              <img src="media/grib.svg" alt="" />
+            </div>
+            <span class="name">Название</span>
+            <span class="price">
+              <span><img src="media/star.svg" alt="" />7777</span>
+              <span><img src="media/triangle.svg" alt="" />7777</span>
+            </span>
+          </li> -->
